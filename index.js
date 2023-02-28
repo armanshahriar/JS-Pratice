@@ -100,4 +100,10 @@ function calculateGrade(score) {
     const grade = calculateGrade(score);
     console.log(`${person}'s grade is ${grade}`);
   }
-  
+function bringSingara(money) {
+ var singaraPrice = 20;
+ var contity = money / singaraPrice;
+ return contity;
+}
+var singaras = bringSingara(500);
+console.log(singaras)
